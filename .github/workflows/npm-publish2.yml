@@ -18,6 +18,8 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
 
   publish-npm:
     needs: build
