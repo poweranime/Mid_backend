@@ -37,3 +37,12 @@ if (x%100==0){
 else {console.log("it is not!");
 }
 
+var x = 20;
+var y = 30;
+var sum = add(x,y);
+var times = multiply(x,y)
+var div = division(x,y)
+
+console.log(sum);
+console.log(times);
+console.log(div);
