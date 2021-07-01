@@ -1,5 +1,5 @@
 {
-  "name": "@mid_backend/new-package",
+  "name": "mid_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
