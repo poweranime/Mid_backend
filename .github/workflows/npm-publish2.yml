@@ -32,7 +32,7 @@ jobs:
       # Publish to npm
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.b8b16795-0fda-4385-8fa4-5fce8893a7ec }}
 
   publish-gpr:
     needs: build
